@@ -336,6 +336,344 @@ const DataList = [
         }
       ]
     }
+  },
+  {
+    name: 'eɪ',
+    pronunciation: require('./assets/pronunciation/eɪ.mp3').default,
+    letterCombination: {
+      a: [
+        {
+          word: 'name',
+          phonetic: '[neɪm]'
+        },
+        {
+          word: 'fate',
+          phonetic: '[feɪt]'
+        }
+      ],
+      ai: [
+        {
+          word: 'rain',
+          phonetic: '[reɪn]'
+        }
+      ]
+    }
+  },
+  {
+    name: 'aɪ',
+    pronunciation: require('./assets/pronunciation/aɪ.mp3').default,
+    letterCombination: {
+      i: [
+        {
+          word: 'bike',
+          phonetic: '[baɪk]'
+        },
+        {
+          word: 'find',
+          phonetic: '[faɪnd]'
+        }
+      ],
+      y: [
+        {
+          word: 'try',
+          phonetic: '[traɪ]'
+        }
+      ]
+    }
+  },
+  {
+    name: 'ɔɪ',
+    pronunciation: require('./assets/pronunciation/ɔɪ.mp3').default,
+    letterCombination: {
+      oi: [
+        {
+          word: 'avoid',
+          phonetic: '[əˈvɔɪd]'
+        },
+        {
+          word: 'soil',
+          phonetic: '[sɔɪl]'
+        }
+      ],
+      oy: [
+        {
+          word: 'joy',
+          phonetic: '[dʒɔɪ]'
+        }
+      ]
+    }
+  },
+  {
+    name: 'ɪə',
+    pronunciation: require('./assets/pronunciation/ɪə.mp3').default,
+    letterCombination: {
+      e: [
+        {
+          word: 'hero',
+          phonetic: '[ˈhɪərəʊ]'
+        },
+        {
+          word: 'material',
+          phonetic: '[məˈtɪəriəl]'
+        }
+      ],
+      ea: [
+        {
+          word: 'idea',
+          phonetic: '[aɪˈdɪə]'
+        },
+        {
+          word: 'theater',
+          phonetic: '[ˈθɪətə(r)]'
+        }
+      ]
+    }
+  },
+  {
+    name: 'əʊ',
+    pronunciation: require('./assets/pronunciation/əʊ.mp3').default,
+    letterCombination: {
+      o: [
+        {
+          word: 'mode',
+          phonetic: '[məʊd]'
+        },
+        {
+          word: 'pose',
+          phonetic: '[pəʊz]'
+        }
+      ],
+      oa: [
+        {
+          word: 'coach',
+          phonetic: '[kəʊtʃ]'
+        },
+        {
+          word: 'boat',
+          phonetic: '[bəʊt]'
+        }
+      ]
+    }
+  },
+  {
+    name: 'aʊ',
+    pronunciation: require('./assets/pronunciation/aʊ.mp3').default,
+    letterCombination: {
+      ou: [
+        {
+          word: 'about',
+          phonetic: '[əˈbaʊt]'
+        },
+        {
+          word: 'cloud',
+          phonetic: '[klaʊd]'
+        }
+      ],
+      ow: [
+        {
+          word: 'allow',
+          phonetic: '[əˈlaʊ]'
+        },
+        {
+          word: 'down',
+          phonetic: '[daʊn]'
+        }
+      ]
+    }
+  },
+  {
+    name: 'eə',
+    pronunciation: require('./assets/pronunciation/eə.mp3').default,
+    letterCombination: {
+      a: [
+        {
+          word: 'parent',
+          phonetic: '[ˈpeərənt]'
+        }
+      ],
+      ar: [
+        {
+          word: 'scarce',
+          phonetic: '[skeəs]'
+        }
+      ],
+      air: [
+        {
+          word: 'hair',
+          phonetic: '[heə(r)]'
+        },
+        {
+          word: 'repair',
+          phonetic: '[rɪˈpeə(r)]'
+        }
+      ]
+    }
+  },
+  {
+    name: 'ʊə',
+    pronunciation: require('./assets/pronunciation/ʊə.mp3').default,
+    letterCombination: {
+      u: [
+        {
+          word: 'rural',
+          phonetic: '[ˈrʊərəl]'
+        },
+        {
+          word: 'plural',
+          phonetic: '[ˈplʊərəl]'
+        }
+      ],
+      our: [
+        {
+          word: 'tour',
+          phonetic: '[tʊə(r)]'
+        },
+        {
+          word: 'gourd',
+          phonetic: '[ɡʊəd]'
+        }
+      ]
+    }
+  },
+  {
+    name: 'p',
+    pronunciation: require('./assets/pronunciation/p.mp3').default,
+    letterCombination: {
+      p: [
+        {
+          word: 'peak',
+          phonetic: '[piːk]'
+        },
+        {
+          word: 'pig',
+          phonetic: '[pɪɡ]'
+        },
+        {
+          word: 'compact',
+          phonetic: '[kəmˈpækt]'
+        }
+      ],
+      pp: [
+        {
+          word: 'appear',
+          phonetic: '[əˈpɪə(r)]'
+        },
+        {
+          word: 'happy',
+          phonetic: '[hæpi]'
+        }
+      ]
+    }
+  },
+  {
+    name: 'b',
+    pronunciation: require('./assets/pronunciation/b.mp3').default,
+    letterCombination: {
+      b: [
+        {
+          word: 'block',
+          phonetic: '[blɒk]'
+        },
+        {
+          word: 'book',
+          phonetic: '[bʊk]'
+        },
+        {
+          word: 'combat',
+          phonetic: '[ˈkɒmbæt]'
+        }
+      ],
+      bb: [
+        {
+          word: 'scrubby',
+          phonetic: '[ˈskrʌbi]'
+        },
+        {
+          word: 'cabbage',
+          phonetic: '[ˈkæbɪdʒ]'
+        }
+      ]
+    }
+  },
+  {
+    name: 't',
+    pronunciation: require('./assets/pronunciation/t.mp3').default,
+    letterCombination: {
+      t: [
+        {
+          word: 'taxi',
+          phonetic: '[ˈtæksi]'
+        },
+        {
+          word: 'tank',
+          phonetic: '[tæŋk]'
+        },
+        {
+          word: 'botany',
+          phonetic: '[ˈbɒtəni]'
+        }
+      ],
+      tt: [
+        {
+          word: 'bottle',
+          phonetic: '[ˈbɒtl]'
+        },
+        {
+          word: 'letter',
+          phonetic: '[ˈletə(r)]'
+        }
+      ],
+      ed: [
+        {
+          word: 'stopped',
+          phonetic: '[stɒpt]'
+        }
+      ]
+    }
+  },
+  {
+    name: 'd',
+    pronunciation: require('./assets/pronunciation/d.mp3').default,
+    letterCombination: {
+      d: [
+        {
+          word: 'debate',
+          phonetic: '[dɪˈbeɪt]'
+        },
+        {
+          word: 'detail',
+          phonetic: '[ˈdiːteɪl]'
+        },
+        {
+          word: 'shady',
+          phonetic: '[ˈʃeɪdi]'
+        },
+        {
+          word: 'cloud',
+          phonetic: '[klaʊd]'
+        }
+      ],
+      dd: [
+        {
+          word: 'address',
+          phonetic: '[əˈdres]'
+        },
+        {
+          word: 'addition',
+          phonetic: '[addition]'
+        }
+      ],
+      ed: [
+        {
+          word: 'advised',
+          phonetic: '[ədˈvaɪzd]'
+        },
+        {
+          word: 'saved',
+          phonetic: '[seɪvd]'
+        }
+      ]
+    }
   }
 ];
 
