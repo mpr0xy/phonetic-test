@@ -674,6 +674,272 @@ const DataList = [
         }
       ]
     }
+  },
+  {
+    name: 'k',
+    pronunciation: require('./assets/pronunciation/k.mp3').default,
+    letterCombination: {
+      c: [
+        {
+          word: 'crowd',
+          phonetic: '[kraʊd]'
+        },
+        {
+          word: 'cup',
+          phonetic: '[kʌp]'
+        },
+        {
+          word: 'cage',
+          phonetic: '[keɪdʒ]'
+        },
+      ],
+      k: [
+        {
+          word: 'kite',
+          phonetic: '[kaɪt]'
+        },
+        {
+          word: 'kick',
+          phonetic: '[kɪk]'
+        }
+      ],
+      x: [
+        {
+          word: 'exciting',
+          phonetic: '[ɪkˈsaɪtɪŋ]'
+        },
+        {
+          word: 'exercise',
+          phonetic: '[ˈeksəsaɪz]'
+        }
+      ]
+    }
+  },
+  {
+    name: 'g',
+    pronunciation: require('./assets/pronunciation/g.mp3').default,
+    letterCombination: {
+      g: [
+        {
+          word: 'glamour',
+          phonetic: '[ˈɡlæmə(r)]'
+        },
+        {
+          word: 'gold',
+          phonetic: '[ɡəʊld]'
+        },
+        {
+          word: 'agree',
+          phonetic: '[əˈɡriː]'
+        },
+      ],
+      gg: [
+        {
+          word: 'aggregate',
+          phonetic: '[ˈæɡrɪɡət]'
+        },
+      ],
+      gh: [
+        {
+          word: 'ghost',
+          phonetic: '[ɡəʊst]'
+        }
+      ]
+    }
+  },
+  {
+    name: 'f',
+    pronunciation: require('./assets/pronunciation/f.mp3').default,
+    letterCombination: {
+      f: [
+        {
+          word: 'free',
+          phonetic: '[friː]'
+        },
+        {
+          word: 'sofa',
+          phonetic: '[ˈsəʊfə]'
+        },
+        {
+          word: 'chief',
+          phonetic: '[tʃiːf]'
+        },
+      ],
+      ff: [
+        {
+          word: 'coffee',
+          phonetic: '[ˈkɒfi]'
+        },
+        {
+          word: 'staff',
+          phonetic: '[stɑːf]'
+        }
+      ],
+      gh: [
+        {
+          word: 'laugh',
+          phonetic: '[lɑːf]'
+        },
+        {
+          word: 'cough',
+          phonetic: '[kɒf]'
+        }
+      ]
+    }
+  },
+  {
+    name: 'v',
+    pronunciation: require('./assets/pronunciation/f.mp3').default,
+    letterCombination: {
+      v: [
+        {
+          word: 'vessel',
+          phonetic: '[ˈvesl]'
+        },
+        {
+          word: 'valid',
+          phonetic: '[ˈvælɪd]'
+        },
+        {
+          word: 'live',
+          phonetic: '[lɪv]'
+        },
+        {
+          word: 'solve',
+          phonetic: '[sɒlv]'
+        },
+      ],
+      ve: [
+        {
+          word: 'achievement',
+          phonetic: '[əˈtʃiːvmənt]'
+        },
+        {
+          word: 'evening',
+          phonetic: '[ˈiːvnɪŋ]'
+        }
+      ],
+    }
+  },
+  {
+    name: 's',
+    pronunciation: require('./assets/pronunciation/s.mp3').default,
+    letterCombination: {
+      c: [
+        {
+          word: 'cinema',
+          phonetic: '[ˈsɪnəmə]'
+        },
+        {
+          word: 'center',
+          phonetic: '[ˈsentə(r)]'
+        },
+        {
+          word: 'cycle',
+          phonetic: '[ˈsaɪkl]'
+        },
+      ],
+      s: [
+        {
+          word: 'sweet',
+          phonetic: '[swiːt]'
+        },
+        {
+          word: 'scene',
+          phonetic: '[siːn]'
+        }
+      ],
+    }
+  },
+  {
+    name: 'z',
+    pronunciation: require('./assets/pronunciation/z.mp3').default,
+    letterCombination: {
+      s: [
+        {
+          word: 'design',
+          phonetic: '[dɪˈzaɪn]'
+        },
+        {
+          word: 'acquisition',
+          phonetic: '[ˌækwɪˈzɪʃn]'
+        },
+        {
+          word: 'music',
+          phonetic: '[ˈmjuːzɪk]'
+        },
+      ],
+      z: [
+        {
+          word: 'zebra',
+          phonetic: '[ˈzebrə]'
+        },
+        {
+          word: 'amazing',
+          phonetic: '[əˈmeɪzɪŋ]'
+        }
+      ],
+    }
+  },
+  {
+    name: 'θ',
+    pronunciation: require('./assets/pronunciation/θ.mp3').default,
+    letterCombination: {
+      th: [
+        {
+          word: 'thought',
+          phonetic: '[θɔːt]'
+        },
+        {
+          word: 'think',
+          phonetic: '[θɪŋk]'
+        },
+        {
+          word: 'thing',
+          phonetic: '[θɪŋ]'
+        },
+        {
+          word: 'month',
+          phonetic: '[mʌnθ]'
+        },
+        {
+          word: 'something',
+          phonetic: '[ˈsʌmθɪŋ]'
+        },
+        {
+          word: 'bath',
+          phonetic: '[bɑːθ]'
+        },
+      ]
+    }
+  },
+  {
+    name: 'ð',
+    pronunciation: require('./assets/pronunciation/ð.mp3').default,
+    letterCombination: {
+      th: [
+        {
+          word: 'therefore',
+          phonetic: '[ˈðeəfɔː(r)]'
+        },
+        {
+          word: 'then',
+          phonetic: '[ðen]'
+        },
+        {
+          word: 'father',
+          phonetic: '[ˈfɑːðə(r)]'
+        },
+        {
+          word: 'weather',
+          phonetic: '[ˈweðə(r)]'
+        },
+        {
+          word: 'with',
+          phonetic: '[wɪð]'
+        }
+      ]
+    }
   }
 ];
 
