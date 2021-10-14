@@ -940,6 +940,150 @@ const DataList = [
         }
       ]
     }
+  },
+  {
+    name: 'ʃ',
+    pronunciation: require('./assets/pronunciation/ʃ.mp3').default,
+    letterCombination: {
+      c: [
+        {
+          word: 'official',
+          phonetic: '[əˈfɪʃl]'
+        },
+        {
+          word: 'delicious',
+          phonetic: '[dɪˈlɪʃəs]'
+        },
+        {
+          word: 'efficient',
+          phonetic: '[ɪˈfɪʃnt]'
+        },
+      ],
+      s: [
+        {
+          word: 'sugar',
+          phonetic: '[ˈʃʊɡə(r)]'
+        },
+        {
+          word: 'sure',
+          phonetic: '[ʃʊə(r)]'
+        }
+      ],
+      t: [
+        {
+          word: 'nation',
+          phonetic: '[ˈneɪʃn]'
+        },
+        {
+          word: 'patient',
+          phonetic: '[ˈpeɪʃnt]'
+        }
+      ]
+    }
+  },
+  {
+    name: 'ʃ',
+    pronunciation: require('./assets/pronunciation/ʃ.mp3').default,
+    letterCombination: {
+      g: [
+        {
+          word: 'garage',
+          phonetic: '[ˈɡærɑːʒ]'
+        },
+        {
+          word: 'beige',
+          phonetic: '[beɪʒ]'
+        }
+      ],
+      s: [
+        {
+          word: 'treasure',
+          phonetic: '[ˈtreʒə(r)]'
+        },
+        {
+          word: 'decision',
+          phonetic: '[dɪˈsɪʒn]'
+        }
+      ]
+    }
+  },
+  {
+    name: 'ʃ',
+    pronunciation: require('./assets/pronunciation/ʃ.mp3').default,
+    letterCombination: {
+      t: [
+        {
+          word: 'mature',
+          phonetic: '[məˈtʃʊə(r)]'
+        },
+        {
+          word: 'culture',
+          phonetic: '[ˈkʌltʃə(r)]'
+        }
+      ],
+      ch: [
+        {
+          word: 'cheat',
+          phonetic: '[tʃiːt]'
+        },
+        {
+          word: 'church',
+          phonetic: '[tʃɜːtʃ]'
+        }
+      ],
+      tch: [
+        {
+          word: 'watch',
+          phonetic: '[wɒtʃ]'
+        }
+      ]
+    }
+  },
+  {
+    name: 'ʃ',
+    pronunciation: require('./assets/pronunciation/ʃ.mp3').default,
+    letterCombination: {
+      g: [
+        {
+          word: 'ecological',
+          phonetic: '[ˌiːkəˈlɒdʒɪkl]'
+        },
+        {
+          word: 'magical',
+          phonetic: '[ˈmædʒɪkl]'
+        }
+      ],
+      ge: [
+        {
+          word: 'large',
+          phonetic: '[lɑːdʒ]'
+        },
+        {
+          word: 'garbage',
+          phonetic: '[ˈɡɑːbɪdʒ]'
+        }
+      ],
+      j: [
+        {
+          word: 'job',
+          phonetic: '[dʒɒb]'
+        },
+        {
+          word: 'jet',
+          phonetic: '[dʒet]'
+        }
+      ],
+      dge: [
+        {
+          word: 'bridge',
+          phonetic: '[brɪdʒ]'
+        },
+        {
+          word: 'badge',
+          phonetic: '[bædʒ]'
+        }
+      ]
+    }
   }
 ];
 
