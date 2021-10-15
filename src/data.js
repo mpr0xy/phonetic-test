@@ -982,8 +982,8 @@ const DataList = [
     }
   },
   {
-    name: 'ʃ',
-    pronunciation: require('./assets/pronunciation/ʃ.mp3').default,
+    name: 'ʒ',
+    pronunciation: require('./assets/pronunciation/ʒ.mp3').default,
     letterCombination: {
       g: [
         {
@@ -1008,8 +1008,8 @@ const DataList = [
     }
   },
   {
-    name: 'ʃ',
-    pronunciation: require('./assets/pronunciation/ʃ.mp3').default,
+    name: 'ʧ',
+    pronunciation: require('./assets/pronunciation/ʧ.mp3').default,
     letterCombination: {
       t: [
         {
@@ -1040,8 +1040,8 @@ const DataList = [
     }
   },
   {
-    name: 'ʃ',
-    pronunciation: require('./assets/pronunciation/ʃ.mp3').default,
+    name: 'dʒ',
+    pronunciation: require('./assets/pronunciation/ʤ.mp3').default,
     letterCombination: {
       g: [
         {
@@ -1081,6 +1081,162 @@ const DataList = [
         {
           word: 'badge',
           phonetic: '[bædʒ]'
+        }
+      ]
+    }
+  },
+  {
+    name: 'tr',
+    pronunciation: require('./assets/pronunciation/tr.mp3').default,
+    letterCombination: {
+      tr: [
+        {
+          word: 'trend',
+          phonetic: '[trend]'
+        },
+        {
+          word: 'trouble',
+          phonetic: '[ˈtrʌbl]'
+        },
+        {
+          word: 'trunk',
+          phonetic: '[trʌŋk]'
+        },
+        {
+          word: 'strict',
+          phonetic: '[strɪkt]'
+        },
+        {
+          word: 'strong',
+          phonetic: '[strɒŋ]'
+        },
+        {
+          word: 'control',
+          phonetic: 'kənˈtrəʊl'
+        }
+      ]
+    }
+  },
+  {
+    name: 'dr',
+    pronunciation: require('./assets/pronunciation/dr.mp3').default,
+    letterCombination: {
+      dr: [
+        {
+          word: 'draft',
+          phonetic: '[drɑːft]'
+        },
+        {
+          word: 'drawer',
+          phonetic: '[drɔː(r)]'
+        },
+        {
+          word: 'drain',
+          phonetic: '[dreɪn]'
+        },
+        {
+          word: 'hydrant',
+          phonetic: '[ˈhaɪdrənt]'
+        },
+        {
+          word: 'hundred',
+          phonetic: '[strɒŋ]'
+        },
+        {
+          word: 'control',
+          phonetic: '[kənˈtrəʊl]'
+        }
+      ]
+    }
+  },
+  {
+    name: 'dr',
+    pronunciation: require('./assets/pronunciation/dr.mp3').default,
+    letterCombination: {
+      dr: [
+        {
+          word: 'draft',
+          phonetic: '[drɑːft]'
+        },
+        {
+          word: 'drawer',
+          phonetic: '[drɔː(r)]'
+        },
+        {
+          word: 'drain',
+          phonetic: '[dreɪn]'
+        },
+        {
+          word: 'hydrant',
+          phonetic: '[ˈhaɪdrənt]'
+        },
+        {
+          word: 'hundred',
+          phonetic: '[strɒŋ]'
+        }
+      ]
+    }
+  },
+  {
+    name: 'ts',
+    pronunciation: require('./assets/pronunciation/ts.mp3').default,
+    letterCombination: {
+      ts: [
+        {
+          word: 'wallets',
+          phonetic: '[ˈwɒlɪts]'
+        },
+        {
+          word: 'presents',
+          phonetic: '[prɪˈzents]'
+        },
+        {
+          word: 'results',
+          phonetic: '[rɪˈzʌlts]'
+        },
+        {
+          word: 'imports',
+          phonetic: '[imports]'
+        },
+        {
+          word: 'gets',
+          phonetic: '[gets]'
+        },
+        {
+          word: 'starts',
+          phonetic: '[stɑːts]'
+        }
+      ]
+    }
+  },
+  {
+    name: 'dz',
+    pronunciation: require('./assets/pronunciation/dz.mp3').default,
+    letterCombination: {
+      ds: [
+        {
+          word: 'kids',
+          phonetic: '[kɪdz]'
+        },
+        {
+          word: 'beds',
+          phonetic: '[bedz]'
+        },
+        {
+          word: 'hands',
+          phonetic: '[hændz]'
+        },
+        {
+          word: 'finds',
+          phonetic: '[faɪndz]'
+        },
+        {
+          word: 'reads',
+          phonetic: '[riːdz]'
+        },
+        {
+          word: 'builds',
+          phonetic: '[bɪldz]'
         }
       ]
     }
