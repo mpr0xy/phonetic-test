@@ -3,6 +3,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { useSpring, animated } from 'react-spring'
 import './App.css';
 import phoneticData from './data';
+import WordInfoPron from './components/WordInfoPron/index';
 
 const getRandomByLength = (length) => {
   return Math.floor(Math.random() * 1000 % length);
@@ -90,6 +91,7 @@ function App() {
   return (
     <div className="App">
       <div className="layout">
+        <WordInfoPron wordInfo={wordInfo} next={next} />
         <animated.div style={animateStyle} className="content">
           <p className="word" onClick={playAudio}>{wordInfo.word}</p>
           {

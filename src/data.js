@@ -1240,7 +1240,203 @@ const DataList = [
         }
       ]
     }
-  }
+  },
+  {
+    name: 'h',
+    pronunciation: require('./assets/pronunciation/h.mp3').default,
+    letterCombination: {
+      h: [
+        {
+          word: 'hunter',
+          phonetic: '[ˈhʌntə(r)]'
+        },
+        {
+          word: 'hook',
+          phonetic: '[hʊk]'
+        },
+        {
+          word: 'hesitate',
+          phonetic: '[ˈhezɪteɪt]'
+        },
+        {
+          word: 'behave',
+          phonetic: '[bɪˈheɪv]'
+        },
+        {
+          word: 'adherence',
+          phonetic: '[ədˈhɪərəns]'
+        },
+        {
+          word: 'household',
+          phonetic: '[ˈhaʊshəʊld]'
+        }
+      ],
+      wh: [
+        {
+          word: 'whole',
+          phonetic: '[həʊl]'
+        },
+        {
+          word: 'who',
+          phonetic: '[huː]'
+        },
+        {
+          word: 'whose',
+          phonetic: '[huːz]'
+        }
+      ]
+    }
+  },
+  {
+    name: 'r',
+    pronunciation: require('./assets/pronunciation/r.mp3').default,
+    letterCombination: {
+      r: [
+        {
+          word: 'round',
+          phonetic: '[raʊnd]'
+        },
+        {
+          word: 'ring',
+          phonetic: '[rɪŋ]'
+        },
+        {
+          word: 'reply',
+          phonetic: '[rɪˈplaɪ]'
+        },
+        {
+          word: 'harass',
+          phonetic: '[ˈhærəs]'
+        },
+        {
+          word: 'practice',
+          phonetic: '[ˈpræktɪs]'
+        },
+        {
+          word: 'kraft',
+          phonetic: '[kræft]'
+        }
+      ],
+      rr: [
+        {
+          word: 'irrelevant',
+          phonetic: '[ɪˈreləvənt]'
+        },
+        {
+          word: 'irresponsible',
+          phonetic: '[ˌɪrɪˈspɒnsəbl]'
+        }
+      ],
+      wr: [
+        {
+          word: 'wrong',
+          phonetic: '[rɒŋ]'
+        },
+        {
+          word: 'write',
+          phonetic: '[raɪt]'
+        },
+        {
+          word: 'wrist',
+          phonetic: '[rɪst]'
+        }
+      ]
+    }
+  },
+  {
+    name: 'w',
+    pronunciation: require('./assets/pronunciation/w.mp3').default,
+    letterCombination: {
+      w: [
+        {
+          word: 'wolf',
+          phonetic: '[wʊlf]'
+        },
+        {
+          word: 'wave',
+          phonetic: '[weɪv]'
+        },
+        {
+          word: 'wait',
+          phonetic: '[weɪt]'
+        },
+        {
+          word: 'sway',
+          phonetic: '[sweɪ]'
+        },
+        {
+          word: 'awake',
+          phonetic: '[əˈweɪk]'
+        },
+      ],
+      u: [
+        {
+          word: 'quarrel',
+          phonetic: '[ˈkwɒrəl]'
+        },
+        {
+          word: 'equal',
+          phonetic: '[ˈiːkwəl]'
+        },
+        {
+          word: 'quality',
+          phonetic: '[ˈkwɒləti]'
+        }
+      ],
+      wh: [
+        {
+          word: 'wheel',
+          phonetic: '[wiːl]'
+        },
+        {
+          word: 'whistle',
+          phonetic: '[ˈwɪsl]'
+        },
+        {
+          word: 'while',
+          phonetic: '[waɪl]'
+        }
+      ]
+    }
+  },
+  {
+    name: 'j',
+    pronunciation: require('./assets/pronunciation/j.mp3').default,
+    letterCombination: {
+      j: [
+        {
+          word: 'yield',
+          phonetic: '[jiːld]'
+        },
+        {
+          word: 'year',
+          phonetic: '[jɪə(r)]'
+        },
+        {
+          word: 'young',
+          phonetic: '[jʌŋ]'
+        },
+        {
+          word: 'beyond',
+          phonetic: '[bɪˈjɒnd]'
+        },
+        {
+          word: 'backyard',
+          phonetic: '[ˌbækˈjɑːd]'
+        },
+      ],
+      i: [
+        {
+          word: 'million',
+          phonetic: '[ˈmɪljən]'
+        },
+        {
+          word: 'billion',
+          phonetic: '[ˈbɪljən]'
+        }
+      ]
+    }
+  },
 ];
 
 export default DataList;
