@@ -1,3 +1,4 @@
+/* eslint-disable max-lines */
 const DataList = [
   {
     name: 'ɪ',
@@ -22,46 +23,46 @@ const DataList = [
         },
         {
           word: 'litter',
-          phonetic: '[ˈlɪtə(r)]'
+          phonetic: '[ˈlɪtə(r)]',
         },
         {
           word: 'chip',
-          phonetic: '[tʃɪp]'
+          phonetic: '[tʃɪp]',
         },
         {
           word: 'fit',
-          phonetic: '[fɪt]'
+          phonetic: '[fɪt]',
         },
         {
           word: 'his',
-          phonetic: '[hɪz]'
+          phonetic: '[hɪz]',
         },
         {
           word: 'pitch',
-          phonetic: '[pɪtʃ]'
+          phonetic: '[pɪtʃ]',
         },
         {
           word: 'ship',
-          phonetic: '[ʃɪp]'
-        }
+          phonetic: '[ʃɪp]',
+        },
       ],
       a: [
         {
           word: 'orangeade',
-          phonetic: '[ˌɒrɪndʒˈeɪd]'
+          phonetic: '[ˌɒrɪndʒˈeɪd]',
         },
         {
           word: 'sausage',
-          phonetic: '[ˈsɒsɪdʒ]'
-        }
+          phonetic: '[ˈsɒsɪdʒ]',
+        },
       ],
       ui: [
         {
           word: 'build',
-          phonetic: '[bɪld]'
-        }
-      ]
-    }
+          phonetic: '[bɪld]',
+        },
+      ],
+    },
   },
   {
     name: 'iː',
@@ -70,56 +71,56 @@ const DataList = [
       i: [
         {
           word: 'litre',
-          phonetic: '[ˈliːtə(r)]'
-        }
+          phonetic: '[ˈliːtə(r)]',
+        },
       ],
       ee: [
         {
           word: 'tree',
-          phonetic: '[triː]'
+          phonetic: '[triː]',
         },
         {
           word: 'feet',
-          phonetic: '[fiːt]'
+          phonetic: '[fiːt]',
         },
         {
           word: 'sheep',
-          phonetic: '[ʃiːp]'
-        }
+          phonetic: '[ʃiːp]',
+        },
       ],
       ea: [
         {
           word: 'leave',
-          phonetic: '[liːv]'
+          phonetic: '[liːv]',
         },
         {
           word: 'cheap',
-          phonetic: '[tʃiːp]'
+          phonetic: '[tʃiːp]',
         },
         {
           word: 'peach',
-          phonetic: '[piːtʃ]'
-        }
+          phonetic: '[piːtʃ]',
+        },
       ],
       ie: [
         {
           word: 'piece',
-          phonetic: '[piːs]'
-        }
+          phonetic: '[piːs]',
+        },
       ],
       ei: [
         {
           word: 'receive',
-          phonetic: '[rɪˈsiːv]'
-        }
+          phonetic: '[rɪˈsiːv]',
+        },
       ],
       e: [
         {
           word: 'he\'s',
-          phonetic: '[hiːz]'
-        }
-      ]
-    }
+          phonetic: '[hiːz]',
+        },
+      ],
+    },
   },
   {
     name: 'e',
@@ -128,28 +129,28 @@ const DataList = [
       a: [
         {
           word: 'many',
-          phonetic: '[ˈmeni]'
-        }
+          phonetic: '[ˈmeni]',
+        },
       ],
       e: [
         {
           word: 'desk',
-          phonetic: '[desk]'
-        }
+          phonetic: '[desk]',
+        },
       ],
       ai: [
         {
           word: 'said',
-          phonetic: '[sed]'
-        }
+          phonetic: '[sed]',
+        },
       ],
       ea: [
         {
           word: 'dead',
-          phonetic: '[ded]'
-        }
-      ]
-    }
+          phonetic: '[ded]',
+        },
+      ],
+    },
   },
   {
     name: 'æ',
@@ -158,14 +159,14 @@ const DataList = [
       a: [
         {
           word: 'stand',
-          phonetic: '[stænd]'
+          phonetic: '[stænd]',
         },
         {
           word: 'family',
-          phonetic: '[ˈfæməli]'
-        }
-      ]
-    }
+          phonetic: '[ˈfæməli]',
+        },
+      ],
+    },
   },
   {
     name: 'ɒ',
@@ -174,14 +175,14 @@ const DataList = [
       o: [
         {
           word: 'collar',
-          phonetic: '[ˈkɒlə(r)]'
+          phonetic: '[ˈkɒlə(r)]',
         },
         {
           word: 'hot',
-          phonetic: '[hɒt]'
-        }
-      ]
-    }
+          phonetic: '[hɒt]',
+        },
+      ],
+    },
   },
   {
     name: 'ɔː',
@@ -190,20 +191,20 @@ const DataList = [
       a: [
         {
           word: 'water',
-          phonetic: '[ˈwɔːtə(r)]'
+          phonetic: '[ˈwɔːtə(r)]',
         },
         {
           word: 'Nepal',
-          phonetic: '[nɪˈpɔːl]'
-        }
+          phonetic: '[nɪˈpɔːl]',
+        },
       ],
       al: [
         {
           word: 'mall',
-          phonetic: '[mɔːl]'
-        }
-      ]
-    }
+          phonetic: '[mɔːl]',
+        },
+      ],
+    },
   },
   {
     name: 'ʊ',
@@ -212,20 +213,20 @@ const DataList = [
       o: [
         {
           word: 'woman',
-          phonetic: '[ˈwʊmən]'
+          phonetic: '[ˈwʊmən]',
         },
         {
           word: 'wolf',
-          phonetic: '[wʊlf]'
-        }
+          phonetic: '[wʊlf]',
+        },
       ],
       u: [
         {
           word: 'put',
-          phonetic: '[pʊt]'
-        }
-      ]
-    }
+          phonetic: '[pʊt]',
+        },
+      ],
+    },
   },
   {
     name: 'uː',
@@ -234,20 +235,20 @@ const DataList = [
       o: [
         {
           word: 'improve',
-          phonetic: '[ɪmˈpruːv]'
+          phonetic: '[ɪmˈpruːv]',
         },
         {
           word: 'movie',
-          phonetic: '[ˈmuːvi]'
-        }
+          phonetic: '[ˈmuːvi]',
+        },
       ],
       u: [
         {
           word: 'ruler',
-          phonetic: '[ˈruːlə(r)]'
-        }
-      ]
-    }
+          phonetic: '[ˈruːlə(r)]',
+        },
+      ],
+    },
   },
   {
     name: 'ʌ',
@@ -256,20 +257,20 @@ const DataList = [
       o: [
         {
           word: 'come',
-          phonetic: '[kʌm]'
+          phonetic: '[kʌm]',
         },
         {
           word: 'money',
-          phonetic: '[ˈmʌni]'
-        }
+          phonetic: '[ˈmʌni]',
+        },
       ],
       u: [
         {
           word: 'shut',
-          phonetic: '[ʃʌt]'
-        }
-      ]
-    }
+          phonetic: '[ʃʌt]',
+        },
+      ],
+    },
   },
   {
     name: 'ɑː',
@@ -278,20 +279,20 @@ const DataList = [
       a: [
         {
           word: 'after',
-          phonetic: '[ˈɑːftə(r)]'
+          phonetic: '[ˈɑːftə(r)]',
         },
         {
           word: 'ask',
-          phonetic: '[ɑːsk]'
-        }
+          phonetic: '[ɑːsk]',
+        },
       ],
       al: [
         {
           word: 'half',
-          phonetic: '[hɑːf]'
-        }
-      ]
-    }
+          phonetic: '[hɑːf]',
+        },
+      ],
+    },
   },
   {
     name: 'ə',
@@ -300,19 +301,19 @@ const DataList = [
       a: [
         {
           word: 'banana',
-          phonetic: '[bəˈnɑːnə]'
+          phonetic: '[bəˈnɑːnə]',
         },
         {
           word: 'address',
-          phonetic: '[əˈdres]'
-        }
+          phonetic: '[əˈdres]',
+        },
       ],
       e: [
         {
           word: 'happen',
-          phonetic: '[ˈhæpən]'
-        }
-      ]
+          phonetic: '[ˈhæpən]',
+        },
+      ],
     },
   },
   {
@@ -322,20 +323,20 @@ const DataList = [
       er: [
         {
           word: 'serve',
-          phonetic: '[sɜːv]'
+          phonetic: '[sɜːv]',
         },
         {
           word: 'nerd',
-          phonetic: '[nɜːd]'
-        }
+          phonetic: '[nɜːd]',
+        },
       ],
       ir: [
         {
           word: 'girl',
-          phonetic: '[ɡɜːl]'
-        }
-      ]
-    }
+          phonetic: '[ɡɜːl]',
+        },
+      ],
+    },
   },
   {
     name: 'eɪ',
@@ -344,20 +345,20 @@ const DataList = [
       a: [
         {
           word: 'name',
-          phonetic: '[neɪm]'
+          phonetic: '[neɪm]',
         },
         {
           word: 'fate',
-          phonetic: '[feɪt]'
-        }
+          phonetic: '[feɪt]',
+        },
       ],
       ai: [
         {
           word: 'rain',
-          phonetic: '[reɪn]'
-        }
-      ]
-    }
+          phonetic: '[reɪn]',
+        },
+      ],
+    },
   },
   {
     name: 'aɪ',
@@ -366,20 +367,20 @@ const DataList = [
       i: [
         {
           word: 'bike',
-          phonetic: '[baɪk]'
+          phonetic: '[baɪk]',
         },
         {
           word: 'find',
-          phonetic: '[faɪnd]'
-        }
+          phonetic: '[faɪnd]',
+        },
       ],
       y: [
         {
           word: 'try',
-          phonetic: '[traɪ]'
-        }
-      ]
-    }
+          phonetic: '[traɪ]',
+        },
+      ],
+    },
   },
   {
     name: 'ɔɪ',
@@ -388,20 +389,20 @@ const DataList = [
       oi: [
         {
           word: 'avoid',
-          phonetic: '[əˈvɔɪd]'
+          phonetic: '[əˈvɔɪd]',
         },
         {
           word: 'soil',
-          phonetic: '[sɔɪl]'
-        }
+          phonetic: '[sɔɪl]',
+        },
       ],
       oy: [
         {
           word: 'joy',
-          phonetic: '[dʒɔɪ]'
-        }
-      ]
-    }
+          phonetic: '[dʒɔɪ]',
+        },
+      ],
+    },
   },
   {
     name: 'ɪə',
@@ -410,24 +411,24 @@ const DataList = [
       e: [
         {
           word: 'hero',
-          phonetic: '[ˈhɪərəʊ]'
+          phonetic: '[ˈhɪərəʊ]',
         },
         {
           word: 'material',
-          phonetic: '[məˈtɪəriəl]'
-        }
+          phonetic: '[məˈtɪəriəl]',
+        },
       ],
       ea: [
         {
           word: 'idea',
-          phonetic: '[aɪˈdɪə]'
+          phonetic: '[aɪˈdɪə]',
         },
         {
           word: 'theater',
-          phonetic: '[ˈθɪətə(r)]'
-        }
-      ]
-    }
+          phonetic: '[ˈθɪətə(r)]',
+        },
+      ],
+    },
   },
   {
     name: 'əʊ',
@@ -436,24 +437,24 @@ const DataList = [
       o: [
         {
           word: 'mode',
-          phonetic: '[məʊd]'
+          phonetic: '[məʊd]',
         },
         {
           word: 'pose',
-          phonetic: '[pəʊz]'
-        }
+          phonetic: '[pəʊz]',
+        },
       ],
       oa: [
         {
           word: 'coach',
-          phonetic: '[kəʊtʃ]'
+          phonetic: '[kəʊtʃ]',
         },
         {
           word: 'boat',
-          phonetic: '[bəʊt]'
-        }
-      ]
-    }
+          phonetic: '[bəʊt]',
+        },
+      ],
+    },
   },
   {
     name: 'aʊ',
@@ -462,24 +463,24 @@ const DataList = [
       ou: [
         {
           word: 'about',
-          phonetic: '[əˈbaʊt]'
+          phonetic: '[əˈbaʊt]',
         },
         {
           word: 'cloud',
-          phonetic: '[klaʊd]'
-        }
+          phonetic: '[klaʊd]',
+        },
       ],
       ow: [
         {
           word: 'allow',
-          phonetic: '[əˈlaʊ]'
+          phonetic: '[əˈlaʊ]',
         },
         {
           word: 'down',
-          phonetic: '[daʊn]'
-        }
-      ]
-    }
+          phonetic: '[daʊn]',
+        },
+      ],
+    },
   },
   {
     name: 'eə',
@@ -488,26 +489,26 @@ const DataList = [
       a: [
         {
           word: 'parent',
-          phonetic: '[ˈpeərənt]'
-        }
+          phonetic: '[ˈpeərənt]',
+        },
       ],
       ar: [
         {
           word: 'scarce',
-          phonetic: '[skeəs]'
-        }
+          phonetic: '[skeəs]',
+        },
       ],
       air: [
         {
           word: 'hair',
-          phonetic: '[heə(r)]'
+          phonetic: '[heə(r)]',
         },
         {
           word: 'repair',
-          phonetic: '[rɪˈpeə(r)]'
-        }
-      ]
-    }
+          phonetic: '[rɪˈpeə(r)]',
+        },
+      ],
+    },
   },
   {
     name: 'ʊə',
@@ -516,24 +517,24 @@ const DataList = [
       u: [
         {
           word: 'rural',
-          phonetic: '[ˈrʊərəl]'
+          phonetic: '[ˈrʊərəl]',
         },
         {
           word: 'plural',
-          phonetic: '[ˈplʊərəl]'
-        }
+          phonetic: '[ˈplʊərəl]',
+        },
       ],
       our: [
         {
           word: 'tour',
-          phonetic: '[tʊə(r)]'
+          phonetic: '[tʊə(r)]',
         },
         {
           word: 'gourd',
-          phonetic: '[ɡʊəd]'
-        }
-      ]
-    }
+          phonetic: '[ɡʊəd]',
+        },
+      ],
+    },
   },
   {
     name: 'p',
@@ -542,28 +543,28 @@ const DataList = [
       p: [
         {
           word: 'peak',
-          phonetic: '[piːk]'
+          phonetic: '[piːk]',
         },
         {
           word: 'pig',
-          phonetic: '[pɪɡ]'
+          phonetic: '[pɪɡ]',
         },
         {
           word: 'compact',
-          phonetic: '[kəmˈpækt]'
-        }
+          phonetic: '[kəmˈpækt]',
+        },
       ],
       pp: [
         {
           word: 'appear',
-          phonetic: '[əˈpɪə(r)]'
+          phonetic: '[əˈpɪə(r)]',
         },
         {
           word: 'happy',
-          phonetic: '[hæpi]'
-        }
-      ]
-    }
+          phonetic: '[hæpi]',
+        },
+      ],
+    },
   },
   {
     name: 'b',
@@ -572,28 +573,28 @@ const DataList = [
       b: [
         {
           word: 'block',
-          phonetic: '[blɒk]'
+          phonetic: '[blɒk]',
         },
         {
           word: 'book',
-          phonetic: '[bʊk]'
+          phonetic: '[bʊk]',
         },
         {
           word: 'combat',
-          phonetic: '[ˈkɒmbæt]'
-        }
+          phonetic: '[ˈkɒmbæt]',
+        },
       ],
       bb: [
         {
           word: 'scrubby',
-          phonetic: '[ˈskrʌbi]'
+          phonetic: '[ˈskrʌbi]',
         },
         {
           word: 'cabbage',
-          phonetic: '[ˈkæbɪdʒ]'
-        }
-      ]
-    }
+          phonetic: '[ˈkæbɪdʒ]',
+        },
+      ],
+    },
   },
   {
     name: 't',
@@ -602,34 +603,34 @@ const DataList = [
       t: [
         {
           word: 'taxi',
-          phonetic: '[ˈtæksi]'
+          phonetic: '[ˈtæksi]',
         },
         {
           word: 'tank',
-          phonetic: '[tæŋk]'
+          phonetic: '[tæŋk]',
         },
         {
           word: 'botany',
-          phonetic: '[ˈbɒtəni]'
-        }
+          phonetic: '[ˈbɒtəni]',
+        },
       ],
       tt: [
         {
           word: 'bottle',
-          phonetic: '[ˈbɒtl]'
+          phonetic: '[ˈbɒtl]',
         },
         {
           word: 'letter',
-          phonetic: '[ˈletə(r)]'
-        }
+          phonetic: '[ˈletə(r)]',
+        },
       ],
       ed: [
         {
           word: 'stopped',
-          phonetic: '[stɒpt]'
-        }
-      ]
-    }
+          phonetic: '[stɒpt]',
+        },
+      ],
+    },
   },
   {
     name: 'd',
@@ -638,42 +639,42 @@ const DataList = [
       d: [
         {
           word: 'debate',
-          phonetic: '[dɪˈbeɪt]'
+          phonetic: '[dɪˈbeɪt]',
         },
         {
           word: 'detail',
-          phonetic: '[ˈdiːteɪl]'
+          phonetic: '[ˈdiːteɪl]',
         },
         {
           word: 'shady',
-          phonetic: '[ˈʃeɪdi]'
+          phonetic: '[ˈʃeɪdi]',
         },
         {
           word: 'cloud',
-          phonetic: '[klaʊd]'
-        }
+          phonetic: '[klaʊd]',
+        },
       ],
       dd: [
         {
           word: 'address',
-          phonetic: '[əˈdres]'
+          phonetic: '[əˈdres]',
         },
         {
           word: 'addition',
-          phonetic: '[addition]'
-        }
+          phonetic: '[addition]',
+        },
       ],
       ed: [
         {
           word: 'advised',
-          phonetic: '[ədˈvaɪzd]'
+          phonetic: '[ədˈvaɪzd]',
         },
         {
           word: 'saved',
-          phonetic: '[seɪvd]'
-        }
-      ]
-    }
+          phonetic: '[seɪvd]',
+        },
+      ],
+    },
   },
   {
     name: 'k',
@@ -682,38 +683,38 @@ const DataList = [
       c: [
         {
           word: 'crowd',
-          phonetic: '[kraʊd]'
+          phonetic: '[kraʊd]',
         },
         {
           word: 'cup',
-          phonetic: '[kʌp]'
+          phonetic: '[kʌp]',
         },
         {
           word: 'cage',
-          phonetic: '[keɪdʒ]'
+          phonetic: '[keɪdʒ]',
         },
       ],
       k: [
         {
           word: 'kite',
-          phonetic: '[kaɪt]'
+          phonetic: '[kaɪt]',
         },
         {
           word: 'kick',
-          phonetic: '[kɪk]'
-        }
+          phonetic: '[kɪk]',
+        },
       ],
       x: [
         {
           word: 'exciting',
-          phonetic: '[ɪkˈsaɪtɪŋ]'
+          phonetic: '[ɪkˈsaɪtɪŋ]',
         },
         {
           word: 'exercise',
-          phonetic: '[ˈeksəsaɪz]'
-        }
-      ]
-    }
+          phonetic: '[ˈeksəsaɪz]',
+        },
+      ],
+    },
   },
   {
     name: 'g',
@@ -722,30 +723,30 @@ const DataList = [
       g: [
         {
           word: 'glamour',
-          phonetic: '[ˈɡlæmə(r)]'
+          phonetic: '[ˈɡlæmə(r)]',
         },
         {
           word: 'gold',
-          phonetic: '[ɡəʊld]'
+          phonetic: '[ɡəʊld]',
         },
         {
           word: 'agree',
-          phonetic: '[əˈɡriː]'
+          phonetic: '[əˈɡriː]',
         },
       ],
       gg: [
         {
           word: 'aggregate',
-          phonetic: '[ˈæɡrɪɡət]'
+          phonetic: '[ˈæɡrɪɡət]',
         },
       ],
       gh: [
         {
           word: 'ghost',
-          phonetic: '[ɡəʊst]'
-        }
-      ]
-    }
+          phonetic: '[ɡəʊst]',
+        },
+      ],
+    },
   },
   {
     name: 'f',
@@ -754,38 +755,38 @@ const DataList = [
       f: [
         {
           word: 'free',
-          phonetic: '[friː]'
+          phonetic: '[friː]',
         },
         {
           word: 'sofa',
-          phonetic: '[ˈsəʊfə]'
+          phonetic: '[ˈsəʊfə]',
         },
         {
           word: 'chief',
-          phonetic: '[tʃiːf]'
+          phonetic: '[tʃiːf]',
         },
       ],
       ff: [
         {
           word: 'coffee',
-          phonetic: '[ˈkɒfi]'
+          phonetic: '[ˈkɒfi]',
         },
         {
           word: 'staff',
-          phonetic: '[stɑːf]'
-        }
+          phonetic: '[stɑːf]',
+        },
       ],
       gh: [
         {
           word: 'laugh',
-          phonetic: '[lɑːf]'
+          phonetic: '[lɑːf]',
         },
         {
           word: 'cough',
-          phonetic: '[kɒf]'
-        }
-      ]
-    }
+          phonetic: '[kɒf]',
+        },
+      ],
+    },
   },
   {
     name: 'v',
@@ -794,32 +795,32 @@ const DataList = [
       v: [
         {
           word: 'vessel',
-          phonetic: '[ˈvesl]'
+          phonetic: '[ˈvesl]',
         },
         {
           word: 'valid',
-          phonetic: '[ˈvælɪd]'
+          phonetic: '[ˈvælɪd]',
         },
         {
           word: 'live',
-          phonetic: '[lɪv]'
+          phonetic: '[lɪv]',
         },
         {
           word: 'solve',
-          phonetic: '[sɒlv]'
+          phonetic: '[sɒlv]',
         },
       ],
       ve: [
         {
           word: 'achievement',
-          phonetic: '[əˈtʃiːvmənt]'
+          phonetic: '[əˈtʃiːvmənt]',
         },
         {
           word: 'evening',
-          phonetic: '[ˈiːvnɪŋ]'
-        }
+          phonetic: '[ˈiːvnɪŋ]',
+        },
       ],
-    }
+    },
   },
   {
     name: 's',
@@ -828,28 +829,28 @@ const DataList = [
       c: [
         {
           word: 'cinema',
-          phonetic: '[ˈsɪnəmə]'
+          phonetic: '[ˈsɪnəmə]',
         },
         {
           word: 'center',
-          phonetic: '[ˈsentə(r)]'
+          phonetic: '[ˈsentə(r)]',
         },
         {
           word: 'cycle',
-          phonetic: '[ˈsaɪkl]'
+          phonetic: '[ˈsaɪkl]',
         },
       ],
       s: [
         {
           word: 'sweet',
-          phonetic: '[swiːt]'
+          phonetic: '[swiːt]',
         },
         {
           word: 'scene',
-          phonetic: '[siːn]'
-        }
+          phonetic: '[siːn]',
+        },
       ],
-    }
+    },
   },
   {
     name: 'z',
@@ -858,28 +859,28 @@ const DataList = [
       s: [
         {
           word: 'design',
-          phonetic: '[dɪˈzaɪn]'
+          phonetic: '[dɪˈzaɪn]',
         },
         {
           word: 'acquisition',
-          phonetic: '[ˌækwɪˈzɪʃn]'
+          phonetic: '[ˌækwɪˈzɪʃn]',
         },
         {
           word: 'music',
-          phonetic: '[ˈmjuːzɪk]'
+          phonetic: '[ˈmjuːzɪk]',
         },
       ],
       z: [
         {
           word: 'zebra',
-          phonetic: '[ˈzebrə]'
+          phonetic: '[ˈzebrə]',
         },
         {
           word: 'amazing',
-          phonetic: '[əˈmeɪzɪŋ]'
-        }
+          phonetic: '[əˈmeɪzɪŋ]',
+        },
       ],
-    }
+    },
   },
   {
     name: 'θ',
@@ -888,30 +889,30 @@ const DataList = [
       th: [
         {
           word: 'thought',
-          phonetic: '[θɔːt]'
+          phonetic: '[θɔːt]',
         },
         {
           word: 'think',
-          phonetic: '[θɪŋk]'
+          phonetic: '[θɪŋk]',
         },
         {
           word: 'thing',
-          phonetic: '[θɪŋ]'
+          phonetic: '[θɪŋ]',
         },
         {
           word: 'month',
-          phonetic: '[mʌnθ]'
+          phonetic: '[mʌnθ]',
         },
         {
           word: 'something',
-          phonetic: '[ˈsʌmθɪŋ]'
+          phonetic: '[ˈsʌmθɪŋ]',
         },
         {
           word: 'bath',
-          phonetic: '[bɑːθ]'
+          phonetic: '[bɑːθ]',
         },
-      ]
-    }
+      ],
+    },
   },
   {
     name: 'ð',
@@ -920,26 +921,26 @@ const DataList = [
       th: [
         {
           word: 'therefore',
-          phonetic: '[ˈðeəfɔː(r)]'
+          phonetic: '[ˈðeəfɔː(r)]',
         },
         {
           word: 'then',
-          phonetic: '[ðen]'
+          phonetic: '[ðen]',
         },
         {
           word: 'father',
-          phonetic: '[ˈfɑːðə(r)]'
+          phonetic: '[ˈfɑːðə(r)]',
         },
         {
           word: 'weather',
-          phonetic: '[ˈweðə(r)]'
+          phonetic: '[ˈweðə(r)]',
         },
         {
           word: 'with',
-          phonetic: '[wɪð]'
-        }
-      ]
-    }
+          phonetic: '[wɪð]',
+        },
+      ],
+    },
   },
   {
     name: 'ʃ',
@@ -948,38 +949,38 @@ const DataList = [
       c: [
         {
           word: 'official',
-          phonetic: '[əˈfɪʃl]'
+          phonetic: '[əˈfɪʃl]',
         },
         {
           word: 'delicious',
-          phonetic: '[dɪˈlɪʃəs]'
+          phonetic: '[dɪˈlɪʃəs]',
         },
         {
           word: 'efficient',
-          phonetic: '[ɪˈfɪʃnt]'
+          phonetic: '[ɪˈfɪʃnt]',
         },
       ],
       s: [
         {
           word: 'sugar',
-          phonetic: '[ˈʃʊɡə(r)]'
+          phonetic: '[ˈʃʊɡə(r)]',
         },
         {
           word: 'sure',
-          phonetic: '[ʃʊə(r)]'
-        }
+          phonetic: '[ʃʊə(r)]',
+        },
       ],
       t: [
         {
           word: 'nation',
-          phonetic: '[ˈneɪʃn]'
+          phonetic: '[ˈneɪʃn]',
         },
         {
           word: 'patient',
-          phonetic: '[ˈpeɪʃnt]'
-        }
-      ]
-    }
+          phonetic: '[ˈpeɪʃnt]',
+        },
+      ],
+    },
   },
   {
     name: 'ʒ',
@@ -988,24 +989,24 @@ const DataList = [
       g: [
         {
           word: 'garage',
-          phonetic: '[ˈɡærɑːʒ]'
+          phonetic: '[ˈɡærɑːʒ]',
         },
         {
           word: 'beige',
-          phonetic: '[beɪʒ]'
-        }
+          phonetic: '[beɪʒ]',
+        },
       ],
       s: [
         {
           word: 'treasure',
-          phonetic: '[ˈtreʒə(r)]'
+          phonetic: '[ˈtreʒə(r)]',
         },
         {
           word: 'decision',
-          phonetic: '[dɪˈsɪʒn]'
-        }
-      ]
-    }
+          phonetic: '[dɪˈsɪʒn]',
+        },
+      ],
+    },
   },
   {
     name: 'ʧ',
@@ -1014,30 +1015,30 @@ const DataList = [
       t: [
         {
           word: 'mature',
-          phonetic: '[məˈtʃʊə(r)]'
+          phonetic: '[məˈtʃʊə(r)]',
         },
         {
           word: 'culture',
-          phonetic: '[ˈkʌltʃə(r)]'
-        }
+          phonetic: '[ˈkʌltʃə(r)]',
+        },
       ],
       ch: [
         {
           word: 'cheat',
-          phonetic: '[tʃiːt]'
+          phonetic: '[tʃiːt]',
         },
         {
           word: 'church',
-          phonetic: '[tʃɜːtʃ]'
-        }
+          phonetic: '[tʃɜːtʃ]',
+        },
       ],
       tch: [
         {
           word: 'watch',
-          phonetic: '[wɒtʃ]'
-        }
-      ]
-    }
+          phonetic: '[wɒtʃ]',
+        },
+      ],
+    },
   },
   {
     name: 'dʒ',
@@ -1046,44 +1047,44 @@ const DataList = [
       g: [
         {
           word: 'ecological',
-          phonetic: '[ˌiːkəˈlɒdʒɪkl]'
+          phonetic: '[ˌiːkəˈlɒdʒɪkl]',
         },
         {
           word: 'magical',
-          phonetic: '[ˈmædʒɪkl]'
-        }
+          phonetic: '[ˈmædʒɪkl]',
+        },
       ],
       ge: [
         {
           word: 'large',
-          phonetic: '[lɑːdʒ]'
+          phonetic: '[lɑːdʒ]',
         },
         {
           word: 'garbage',
-          phonetic: '[ˈɡɑːbɪdʒ]'
-        }
+          phonetic: '[ˈɡɑːbɪdʒ]',
+        },
       ],
       j: [
         {
           word: 'job',
-          phonetic: '[dʒɒb]'
+          phonetic: '[dʒɒb]',
         },
         {
           word: 'jet',
-          phonetic: '[dʒet]'
-        }
+          phonetic: '[dʒet]',
+        },
       ],
       dge: [
         {
           word: 'bridge',
-          phonetic: '[brɪdʒ]'
+          phonetic: '[brɪdʒ]',
         },
         {
           word: 'badge',
-          phonetic: '[bædʒ]'
-        }
-      ]
-    }
+          phonetic: '[bædʒ]',
+        },
+      ],
+    },
   },
   {
     name: 'tr',
@@ -1092,30 +1093,30 @@ const DataList = [
       tr: [
         {
           word: 'trend',
-          phonetic: '[trend]'
+          phonetic: '[trend]',
         },
         {
           word: 'trouble',
-          phonetic: '[ˈtrʌbl]'
+          phonetic: '[ˈtrʌbl]',
         },
         {
           word: 'trunk',
-          phonetic: '[trʌŋk]'
+          phonetic: '[trʌŋk]',
         },
         {
           word: 'strict',
-          phonetic: '[strɪkt]'
+          phonetic: '[strɪkt]',
         },
         {
           word: 'strong',
-          phonetic: '[strɒŋ]'
+          phonetic: '[strɒŋ]',
         },
         {
           word: 'control',
-          phonetic: 'kənˈtrəʊl'
-        }
-      ]
-    }
+          phonetic: 'kənˈtrəʊl',
+        },
+      ],
+    },
   },
   {
     name: 'dr',
@@ -1124,30 +1125,30 @@ const DataList = [
       dr: [
         {
           word: 'draft',
-          phonetic: '[drɑːft]'
+          phonetic: '[drɑːft]',
         },
         {
           word: 'drawer',
-          phonetic: '[drɔː(r)]'
+          phonetic: '[drɔː(r)]',
         },
         {
           word: 'drain',
-          phonetic: '[dreɪn]'
+          phonetic: '[dreɪn]',
         },
         {
           word: 'hydrant',
-          phonetic: '[ˈhaɪdrənt]'
+          phonetic: '[ˈhaɪdrənt]',
         },
         {
           word: 'hundred',
-          phonetic: '[strɒŋ]'
+          phonetic: '[strɒŋ]',
         },
         {
           word: 'control',
-          phonetic: '[kənˈtrəʊl]'
-        }
-      ]
-    }
+          phonetic: '[kənˈtrəʊl]',
+        },
+      ],
+    },
   },
   {
     name: 'dr',
@@ -1156,26 +1157,26 @@ const DataList = [
       dr: [
         {
           word: 'draft',
-          phonetic: '[drɑːft]'
+          phonetic: '[drɑːft]',
         },
         {
           word: 'drawer',
-          phonetic: '[drɔː(r)]'
+          phonetic: '[drɔː(r)]',
         },
         {
           word: 'drain',
-          phonetic: '[dreɪn]'
+          phonetic: '[dreɪn]',
         },
         {
           word: 'hydrant',
-          phonetic: '[ˈhaɪdrənt]'
+          phonetic: '[ˈhaɪdrənt]',
         },
         {
           word: 'hundred',
-          phonetic: '[strɒŋ]'
-        }
-      ]
-    }
+          phonetic: '[strɒŋ]',
+        },
+      ],
+    },
   },
   {
     name: 'ts',
@@ -1184,30 +1185,30 @@ const DataList = [
       ts: [
         {
           word: 'wallets',
-          phonetic: '[ˈwɒlɪts]'
+          phonetic: '[ˈwɒlɪts]',
         },
         {
           word: 'presents',
-          phonetic: '[prɪˈzents]'
+          phonetic: '[prɪˈzents]',
         },
         {
           word: 'results',
-          phonetic: '[rɪˈzʌlts]'
+          phonetic: '[rɪˈzʌlts]',
         },
         {
           word: 'imports',
-          phonetic: '[imports]'
+          phonetic: '[imports]',
         },
         {
           word: 'gets',
-          phonetic: '[gets]'
+          phonetic: '[gets]',
         },
         {
           word: 'starts',
-          phonetic: '[stɑːts]'
-        }
-      ]
-    }
+          phonetic: '[stɑːts]',
+        },
+      ],
+    },
   },
   {
     name: 'dz',
@@ -1216,30 +1217,30 @@ const DataList = [
       ds: [
         {
           word: 'kids',
-          phonetic: '[kɪdz]'
+          phonetic: '[kɪdz]',
         },
         {
           word: 'beds',
-          phonetic: '[bedz]'
+          phonetic: '[bedz]',
         },
         {
           word: 'hands',
-          phonetic: '[hændz]'
+          phonetic: '[hændz]',
         },
         {
           word: 'finds',
-          phonetic: '[faɪndz]'
+          phonetic: '[faɪndz]',
         },
         {
           word: 'reads',
-          phonetic: '[riːdz]'
+          phonetic: '[riːdz]',
         },
         {
           word: 'builds',
-          phonetic: '[bɪldz]'
-        }
-      ]
-    }
+          phonetic: '[bɪldz]',
+        },
+      ],
+    },
   },
   {
     name: 'h',
@@ -1248,44 +1249,44 @@ const DataList = [
       h: [
         {
           word: 'hunter',
-          phonetic: '[ˈhʌntə(r)]'
+          phonetic: '[ˈhʌntə(r)]',
         },
         {
           word: 'hook',
-          phonetic: '[hʊk]'
+          phonetic: '[hʊk]',
         },
         {
           word: 'hesitate',
-          phonetic: '[ˈhezɪteɪt]'
+          phonetic: '[ˈhezɪteɪt]',
         },
         {
           word: 'behave',
-          phonetic: '[bɪˈheɪv]'
+          phonetic: '[bɪˈheɪv]',
         },
         {
           word: 'adherence',
-          phonetic: '[ədˈhɪərəns]'
+          phonetic: '[ədˈhɪərəns]',
         },
         {
           word: 'household',
-          phonetic: '[ˈhaʊshəʊld]'
-        }
+          phonetic: '[ˈhaʊshəʊld]',
+        },
       ],
       wh: [
         {
           word: 'whole',
-          phonetic: '[həʊl]'
+          phonetic: '[həʊl]',
         },
         {
           word: 'who',
-          phonetic: '[huː]'
+          phonetic: '[huː]',
         },
         {
           word: 'whose',
-          phonetic: '[huːz]'
-        }
-      ]
-    }
+          phonetic: '[huːz]',
+        },
+      ],
+    },
   },
   {
     name: 'r',
@@ -1294,54 +1295,54 @@ const DataList = [
       r: [
         {
           word: 'round',
-          phonetic: '[raʊnd]'
+          phonetic: '[raʊnd]',
         },
         {
           word: 'ring',
-          phonetic: '[rɪŋ]'
+          phonetic: '[rɪŋ]',
         },
         {
           word: 'reply',
-          phonetic: '[rɪˈplaɪ]'
+          phonetic: '[rɪˈplaɪ]',
         },
         {
           word: 'harass',
-          phonetic: '[ˈhærəs]'
+          phonetic: '[ˈhærəs]',
         },
         {
           word: 'practice',
-          phonetic: '[ˈpræktɪs]'
+          phonetic: '[ˈpræktɪs]',
         },
         {
           word: 'kraft',
-          phonetic: '[kræft]'
-        }
+          phonetic: '[kræft]',
+        },
       ],
       rr: [
         {
           word: 'irrelevant',
-          phonetic: '[ɪˈreləvənt]'
+          phonetic: '[ɪˈreləvənt]',
         },
         {
           word: 'irresponsible',
-          phonetic: '[ˌɪrɪˈspɒnsəbl]'
-        }
+          phonetic: '[ˌɪrɪˈspɒnsəbl]',
+        },
       ],
       wr: [
         {
           word: 'wrong',
-          phonetic: '[rɒŋ]'
+          phonetic: '[rɒŋ]',
         },
         {
           word: 'write',
-          phonetic: '[raɪt]'
+          phonetic: '[raɪt]',
         },
         {
           word: 'wrist',
-          phonetic: '[rɪst]'
-        }
-      ]
-    }
+          phonetic: '[rɪst]',
+        },
+      ],
+    },
   },
   {
     name: 'w',
@@ -1350,54 +1351,54 @@ const DataList = [
       w: [
         {
           word: 'wolf',
-          phonetic: '[wʊlf]'
+          phonetic: '[wʊlf]',
         },
         {
           word: 'wave',
-          phonetic: '[weɪv]'
+          phonetic: '[weɪv]',
         },
         {
           word: 'wait',
-          phonetic: '[weɪt]'
+          phonetic: '[weɪt]',
         },
         {
           word: 'sway',
-          phonetic: '[sweɪ]'
+          phonetic: '[sweɪ]',
         },
         {
           word: 'awake',
-          phonetic: '[əˈweɪk]'
+          phonetic: '[əˈweɪk]',
         },
       ],
       u: [
         {
           word: 'quarrel',
-          phonetic: '[ˈkwɒrəl]'
+          phonetic: '[ˈkwɒrəl]',
         },
         {
           word: 'equal',
-          phonetic: '[ˈiːkwəl]'
+          phonetic: '[ˈiːkwəl]',
         },
         {
           word: 'quality',
-          phonetic: '[ˈkwɒləti]'
-        }
+          phonetic: '[ˈkwɒləti]',
+        },
       ],
       wh: [
         {
           word: 'wheel',
-          phonetic: '[wiːl]'
+          phonetic: '[wiːl]',
         },
         {
           word: 'whistle',
-          phonetic: '[ˈwɪsl]'
+          phonetic: '[ˈwɪsl]',
         },
         {
           word: 'while',
-          phonetic: '[waɪl]'
-        }
-      ]
-    }
+          phonetic: '[waɪl]',
+        },
+      ],
+    },
   },
   {
     name: 'j',
@@ -1406,36 +1407,250 @@ const DataList = [
       j: [
         {
           word: 'yield',
-          phonetic: '[jiːld]'
+          phonetic: '[jiːld]',
         },
         {
           word: 'year',
-          phonetic: '[jɪə(r)]'
+          phonetic: '[jɪə(r)]',
         },
         {
           word: 'young',
-          phonetic: '[jʌŋ]'
+          phonetic: '[jʌŋ]',
         },
         {
           word: 'beyond',
-          phonetic: '[bɪˈjɒnd]'
+          phonetic: '[bɪˈjɒnd]',
         },
         {
           word: 'backyard',
-          phonetic: '[ˌbækˈjɑːd]'
+          phonetic: '[ˌbækˈjɑːd]',
         },
       ],
       i: [
         {
           word: 'million',
-          phonetic: '[ˈmɪljən]'
+          phonetic: '[ˈmɪljən]',
         },
         {
           word: 'billion',
-          phonetic: '[ˈbɪljən]'
-        }
-      ]
-    }
+          phonetic: '[ˈbɪljən]',
+        },
+      ],
+    },
+  },
+  {
+    name: 'l',
+    pronunciation: require('./assets/pronunciation/l.mp3').default,
+    letterCombination: {
+      l: [
+        {
+          word: 'loan',
+          phonetic: '[ləʊn]',
+        },
+        {
+          word: 'lean',
+          phonetic: '[liːn]',
+        },
+        {
+          word: 'lunar',
+          phonetic: '[ˈluːnə(r)]',
+        },
+        {
+          word: 'glow',
+          phonetic: '[ɡləʊ]',
+        },
+        {
+          word: 'blame',
+          phonetic: '[bleɪm]',
+        },
+        {
+          word: 'plate',
+          phonetic: '[pleɪt]',
+        },
+        {
+          word: 'pencil',
+          phonetic: '[ˈpensl]',
+        },
+        {
+          word: 'alcohol',
+          phonetic: '[ˈælkəhɒl]',
+        },
+        {
+          word: 'angel',
+          phonetic: '[ˈeɪndʒl]',
+        },
+      ],
+      ll: [
+        {
+          word: 'pollution',
+          phonetic: '[pəˈluːʃn]',
+        },
+        {
+          word: 'alley',
+          phonetic: '[ˈæli]',
+        },
+        {
+          word: 'belly',
+          phonetic: '[ˈbeli]',
+        },
+        {
+          word: 'shell',
+          phonetic: '[ʃel]',
+        },
+        {
+          word: 'cell',
+          phonetic: '[sel]',
+        },
+        {
+          word: 'bull',
+          phonetic: '[bʊl]',
+        },
+      ],
+    },
+  },
+  {
+    name: 'm',
+    pronunciation: require('./assets/pronunciation/m.mp3').default,
+    letterCombination: {
+      m: [
+        {
+          word: 'mountain',
+          phonetic: '[ˈmaʊntən]',
+        },
+        {
+          word: 'mall',
+          phonetic: '[mɔːl]',
+        },
+        {
+          word: 'marry',
+          phonetic: '[ˈmæri]',
+        },
+        {
+          word: 'small',
+          phonetic: '[smɔːl]',
+        },
+        {
+          word: 'amount',
+          phonetic: '[əˈmaʊnt]',
+        },
+        {
+          word: 'dump',
+          phonetic: '[dʌmp]',
+        },
+        {
+          word: 'alarm',
+          phonetic: '[əˈlɑːm]',
+        },
+        {
+          word: 'room',
+          phonetic: '[ruːm]',
+        },
+        {
+          word: 'palm',
+          phonetic: '[pɑːm]',
+        },
+      ],
+      mm: [
+        {
+          word: 'common',
+          phonetic: '[ˈkɒmən]',
+        },
+        {
+          word: 'comment',
+          phonetic: '[ˈkɒment]',
+        },
+        {
+          word: 'commit',
+          phonetic: '[kəˈmɪt]',
+        },
+      ],
+    },
+  },
+  {
+    name: 'n',
+    pronunciation: require('./assets/pronunciation/m.mp3').default,
+    letterCombination: {
+      n: [
+        {
+          word: 'noble',
+          phonetic: '[ˈnəʊbl]',
+        },
+        {
+          word: 'north',
+          phonetic: '[nɔːθ]',
+        },
+        {
+          word: 'nominate',
+          phonetic: '[ˈnɒmɪneɪt]',
+        },
+        {
+          word: 'financial',
+          phonetic: '[faɪˈnænʃl]',
+        },
+        {
+          word: 'learn',
+          phonetic: '[lɜːn]',
+        },
+      ],
+      nn: [
+        {
+          word: 'manner',
+          phonetic: '[ˈmænə(r)]',
+        },
+        {
+          word: 'runner',
+          phonetic: '[ˈrʌnə(r)]',
+        },
+      ],
+      kn: [
+        {
+          word: 'know',
+          phonetic: '[nəʊ]',
+        },
+        {
+          word: 'knight',
+          phonetic: '[naɪt]',
+        },
+        {
+          word: 'knack',
+          phonetic: '[næk]',
+        },
+      ],
+    },
+  },
+  {
+    name: 'ŋ',
+    pronunciation: require('./assets/pronunciation/ŋ.mp3').default,
+    letterCombination: {
+      n: [
+        {
+          word: 'bank',
+          phonetic: '[bæŋk]',
+        },
+        {
+          word: 'ink',
+          phonetic: '[ɪŋk]',
+        },
+        {
+          word: 'finger',
+          phonetic: '[ˈfɪŋɡə(r)]',
+        },
+      ],
+      ng: [
+        {
+          word: 'willing',
+          phonetic: '[ˈwɪlɪŋ]',
+        },
+        {
+          word: 'single',
+          phonetic: '[ˈsɪŋɡl]',
+        },
+        {
+          word: 'owing',
+          phonetic: '[ˈəʊɪŋ]',
+        },
+      ],
+    },
   },
 ];
 

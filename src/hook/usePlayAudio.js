@@ -34,13 +34,15 @@ const usePlayAudio = (src) => {
   };
   const _playAudio = () => {
     try {
-      audioElementRef.current.play().catch((e) => {});
+      // eslint-disable-next-line no-unused-vars
+      audioElementRef.current.play().catch((_err) => {});
     } catch (e) {}
     setPlaying(true);
   };
   const _pauseAudio = () => {
     try {
-      audioElementRef.current.pause().catch((e) => {});
+      // eslint-disable-next-line no-unused-vars
+      audioElementRef.current.pause().catch((_err) => {});
     } catch (e) {}
     setPlaying(false);
   };
@@ -87,7 +89,7 @@ const usePlayAudio = (src) => {
     pause,
     togglePlay, 
     stopAndPlay,
-    playToEnd
+    playToEnd,
   };
 };
 

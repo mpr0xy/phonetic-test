@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "classnames": "^2.3.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -22,7 +23,26 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "root": true,
+    "rules": {
+      "quotes": ["error", "single"],
+      "jsx-quotes": ["error", "prefer-single"],
+      "semi": ["error", "always"],
+      "comma-dangle": ["error", {
+        "arrays": "only-multiline",
+        "objects": "only-multiline"
+      }],
+      "max-lines": ["error", 180],
+      "max-len": ["error", { "code": 120 }],
+      "no-unused-vars": ["error", { 
+        "vars": "all",
+        "args": "after-used",
+        "caughtErrors": "none",
+        "caughtErrorsIgnorePattern": "^ignore",
+        "ignoreRestSiblings": false 
+      }]
+    }
   },
   "browserslist": {
     "production": [
@@ -37,6 +57,7 @@
     ]
   },
   "devDependencies": {
+    "react-router-dom": "^5.3.0",
     "sass": "^1.43.2"
   }
 }

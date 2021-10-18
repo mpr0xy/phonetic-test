@@ -23,7 +23,7 @@ const WordInfoPron = ({ wordInfo, next }) => {
       }
       <button className={styles.nextButton} onClick={next}>下一题</button>
     </div>
-  )
+  );
 };
 
 export default WordInfoPron;
