@@ -1151,34 +1151,6 @@ const DataList = [
     },
   },
   {
-    name: 'dr',
-    pronunciation: require('./assets/pronunciation/dr.mp3').default,
-    letterCombination: {
-      dr: [
-        {
-          word: 'draft',
-          phonetic: '[drɑːft]',
-        },
-        {
-          word: 'drawer',
-          phonetic: '[drɔː(r)]',
-        },
-        {
-          word: 'drain',
-          phonetic: '[dreɪn]',
-        },
-        {
-          word: 'hydrant',
-          phonetic: '[ˈhaɪdrənt]',
-        },
-        {
-          word: 'hundred',
-          phonetic: '[strɒŋ]',
-        },
-      ],
-    },
-  },
-  {
     name: 'ts',
     pronunciation: require('./assets/pronunciation/ts.mp3').default,
     letterCombination: {
@@ -1651,7 +1623,7 @@ const DataList = [
         },
       ],
     },
-  },
+  }
 ];
 
 export default DataList;

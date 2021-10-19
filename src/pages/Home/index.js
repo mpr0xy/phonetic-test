@@ -11,7 +11,7 @@ const Home = () => {
         这是一款练习听单词，识别单词包含音标的应用。目的是检测使用者是否能听到单词发音和看到单词后，推断出单词的音标。
       </p>
       <div className={styles.choose}>
-        <Link to='/'>
+        <Link to='/learn'>
           <button className={styles.learn}>学习音标</button>
         </Link>
         <Link to='/practice'>
